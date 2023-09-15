@@ -50,7 +50,7 @@ function Header() {
       <h1 className='text-4xl text-center font-bold my-5'>Course Registration</h1>
       <div className='flex w-11/12 mx-auto my-5 flex-col-reverse lg:flex-row sm:gap-10 max-sm:gap-5 lg:gap-2'>
         <CourseCard courseData={courseData} selectedDataHandel={selectedDataHandel} />
-        <CourseCart cartData={cartData}  />
+        <CourseCart cartData={cartData} totalCradit={totalCredit} totalPrice={totalPrice} totalRemaining={totalRemaining} />
       </div>
     </div>
   )
