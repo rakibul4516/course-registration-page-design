@@ -12,4 +12,8 @@ This project created for Course Registration. So many features are included on t
 
 In my project, I managed the state by keeping track of important information and data that the program needed to work correctly. Here's a simple explanation:
 
+<<<<<<< HEAD
 In my project, I used two types of states that is useState and useEffect.I used "useState" for a variable to store data and a function to set and update the variable data. I set an initial value that is a number or array."useEffect" is used to handle side effects.I used it for fetching data from JSON file. I Used dependencies empty array for the effect will only run once, right after the initial render. After declaring setState function I used the data on my project needs. I pass the data as props and receive from other components.Array function map used to get single data. It was process to use states in my project.
+=======
+In my project, I used two types of states that is useState and useEffect.I used "useState" for a variable to store data and a function to set and update the variable data. I set initial value that is number or array."useEffect" is used to handle side effects.I used it for fetching data from Json file.I Used dependencies empty array for the effect will only run once, right after the initial render. After declere setState function I used the data on my project needs.
+>>>>>>> 28abfcd56cd651c606c1affafb046bcd1b5f27f0
