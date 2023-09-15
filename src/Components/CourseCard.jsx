@@ -12,9 +12,9 @@ function CourseCard({ courseData, selectedDataHandel }) {
                                 <h2 className="text-md font-semibold my-2">{course.course_name}</h2>
                                 <p className="text-sm text-justify lg:h-20 md:h-16 mb-3">{course.course_description}</p>
                                 <div className="flex items-center justify-between lg:px-3 py-4">
-                                    <p className='text-md'>Price: $ {course.course_price}</p>
-                                    <BiBookReader className='text-xl font-semibold' />
-                                    <p className='text-md'>Credit: {course.course_duration}hr</p>
+                                    <p className='text-lg'>Price: $ {course.course_price}</p>
+                                    <BiBookReader className='text-2xl font-semibold' />
+                                    <p className='text-lg'>Credit: {course.course_duration}hr</p>
                                 </div>
                                 <button onClick={() => selectedDataHandel(course)} className="bg-blue-700 w-full py-2 rounded-lg text-xl text-white hover:bg-cyan-400 hover:text-black" type="button">Select</button>
                             </div>

@@ -11,7 +11,7 @@ function Header() {
   const [totalRemaining, setTotalRemaining] = useState(20)
   //data fetch from api
   useEffect(() => {
-    fetch('../../public/data.json')
+    fetch('/data.json')
       .then(resp => resp.json())
       .then(CourseData => setCourseData(CourseData))
   }, [])
