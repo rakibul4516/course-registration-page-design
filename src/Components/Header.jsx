@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import CourseCard from './CourseCard'
 import CourseCart from './CourseCart'
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 function Header() {
   //use states
@@ -24,7 +26,9 @@ function Header() {
     let courseCredit = course.course_duration;
     let coursePrice = course.course_price;
     if (isSelected) {
-      return alert('Course already selected');
+      return toast.warn("Course Already Selected !", {
+        position: toast.POSITION.TOP_LEFT
+      });
     } else {
       // Calculate total course credit and total course price
       cartData.forEach((data) => {
@@ -37,7 +41,9 @@ function Header() {
     //calculate remaining credit and set data in use state
     const creditRemainingCredit = 20 - courseCredit;
     if (courseCredit >= 20) {
-      return alert('Insufficient Cradit');
+      return toast.warn("Insufficient Credit !", {
+        position: toast.POSITION.TOP_LEFT
+      });
     } else {
       setCartData([...cartData, course]);
       setTotalCradit(courseCredit);
@@ -52,6 +58,7 @@ function Header() {
         <CourseCard courseData={courseData} selectedDataHandel={selectedDataHandel} />
         <CourseCart cartData={cartData} totalCradit={totalCredit} totalPrice={totalPrice} totalRemaining={totalRemaining} />
       </div>
+      <ToastContainer />
     </div>
   )
 }
