@@ -8,9 +8,11 @@ function CourseCart({ cartData, totalCradit, totalPrice, totalRemaining }) {
                 <h2 className='text-md py-2 font-semibold border-b'>Total selected course: {cartData.length}</h2>
                 <div className='border-b py-5'>
                     <h2 className='text-xl font-semibold'>Course Name</h2>
+                    <ol className='list-decimal list-inside'>
                     {
                         cartData.map((course) => <><li className='text-md'>{course.course_name}</li></>)
                     }
+                    </ol>
                 </div>
                 <h2 className='border-b py-2 text-lg '>Total Credit Hour : {totalCradit}</h2>
                 <h2 className='text-lg py-2'>Total Price: $ {totalPrice}</h2>
