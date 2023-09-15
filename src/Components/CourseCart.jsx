@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-function CourseCart({ cartData}) {
+function CourseCart() {
     return (
         <div className='lg:w-3/12 w-full'>
             <div className='shadow-lg p-3 w-11/12 mx-auto'>
@@ -12,17 +12,11 @@ function CourseCart({ cartData}) {
                     }
                 </div>
                 <h2 className='border-b py-2 text-lg '>Total Credit Hour : {}</h2>
-                <h2 className='text-lg'>Total Price: $ {}</h2>
+                <h2 className='text-lg py-2'>Total Price: $ {}</h2>
             </div>
         </div>
     )
 }
 
-CourseCart.propTypes = {
-    cartData: PropTypes.array,
-    totalCradit: PropTypes.number,
-    totalPrice: PropTypes.number,
-    totalRemaining: PropTypes.number
-}
 
 export default CourseCart
