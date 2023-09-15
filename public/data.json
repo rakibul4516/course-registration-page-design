@@ -1,0 +1,75 @@
+[
+    {
+      "id": "1",
+      "thumbnail_img": "https://i.ibb.co/C8DbD8w/Rectangle-2.png",
+      "course_name": "Introduction to C Programming",
+      "course_description": " Learn the foundations of C programming, from basic syntax to control structures and functions.This course will equip you with the skills to write.",
+      "course_duration": 8,
+      "course_price": 49
+    },
+    {
+      "id": "2",
+      "thumbnail_img": "https://i.ibb.co/4p5jSZr/Rectangle-2-1.png",
+      "course_name": "Introduction to Algorithms",
+      "course_description": "Dive into the world of algorithms and problem-solving. This course will introduce you to fundamental algorithm design techniques, data structures.",
+      "course_duration": 6,
+      "course_price": 79
+    },
+    {
+      "id": "3",
+      "thumbnail_img": "https://i.ibb.co/bNKcNRP/Rectangle-2-2.png",
+      "course_name": "Introduction to C++ for DSA",
+      "course_description": "Explore C++ programming with a focus on data structures and algorithms. This course will teach you C++ for efficient algorithmic problem-solving.",
+      "course_duration": 4,
+      "course_price": 69
+    },
+    {
+      "id": "4",
+      "thumbnail_img": "https://i.ibb.co/D7dDDx8/Rectangle-2-3.png",
+      "course_name": "Basic Data Structures",
+      "course_description": "Master essential data structures like arrays, linked lists, stacks, and queues. This course will equip you with the knowledge and skills.",
+      "course_duration": 9,
+      "course_price": 89
+    },
+    {
+      "id": "5",
+      "thumbnail_img": "https://i.ibb.co/pff2Vw7/Rectangle-2-4.png",
+      "course_name": "Introduction to OOP Python",
+      "course_description": "This course will teach you how to create and manage objects, classes, and inheritance, enabling you to write organized and reusable code.",
+      "course_duration": 5,
+      "course_price": 59
+    },
+    {
+      "id": "6",
+      "thumbnail_img": "https://i.ibb.co/3Wt4qND/Rectangle-2-5.png",
+      "course_name": "Software Engineering",
+      "course_description": "Learn the best practices and principles of software engineering. This course covers the entire software development lifecycle.",
+      "course_duration": 8,
+      "course_price": 49
+    },
+    {
+      "id": "7",
+      "thumbnail_img": "https://i.ibb.co/1Mf8r5b/Rectangle-2-6.png",
+      "course_name": "AWS, Cloud Computing",
+      "course_description": " This course will introduce you to AWS services and solutions, enabling you to deploy, manage, and scale applications in the cloud.",
+      "course_duration": 7,
+      "course_price": 79
+    },
+    {
+      "id": "8",
+      "thumbnail_img": "https://i.ibb.co/PxXmQM2/Rectangle-3.png",
+      "course_name": "Database (MySQL)",
+      "course_description": "Explore the fundamentals of database management using MySQL. This course will teach you how to design, create, and manipulate databases.",
+      "course_duration": 6,
+      "course_price": 69
+    },
+    {
+      "id": "9",
+      "thumbnail_img": "https://i.ibb.co/TvGx0Fd/Rectangle-3-1.png",
+      "course_name": "Problem-Solving Part",
+      "course_description": "Hone your problem-solving skills and algorithmic thinking. This course will provide you with a toolkit of problem-solving strategies and techniques.",
+      "course_duration": 9,
+      "course_price": 89
+    }
+  ]
+  
